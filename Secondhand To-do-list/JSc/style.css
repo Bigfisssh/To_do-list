@@ -1,0 +1,18 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kristen ITC';
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: whitesmoke;
+    width: 100%;
+}
+/* Form functionalit goes here. */
+
+/* Scroll Bar */
+

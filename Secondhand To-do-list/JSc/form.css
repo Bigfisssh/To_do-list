@@ -1,0 +1,50 @@
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box; outline: none;
+    list-style: none; text-decoration: none;
+    font-family: 'Kristen ITC', sans-serif; font-weight: bold;
+    padding: 0 50px;
+}
+
+body{
+    background: #fafafa;
+    font-size: 14px;
+}
+
+.wrapper .header{
+    background-color: white;
+    height: auto;
+    margin: 90px 50px;
+}
+
+.wrapper .header .top{
+    background: #fff; border: 1px solid #e6e6e6;
+    border-radius: 1px; padding: 40px 28px 20px;
+}
+
+
+.wrapper .header .form .input_field, option {
+    margin-bottom: 3px;
+   position: relative; left: 7.1%; margin-left: -30px;
+   
+}
+
+.wrapper .header .form .input_field .input {
+    width: 100%; background: #fafafa; border: 1px solid #efefef;
+    font-size: 11px; border-radius: 3px;
+    color: #262626; padding: 8px;
+}
+
+.wrapper .header .form .btn {
+    background-color: black; 
+    width: 50%;
+    border: 1px solid black; 
+    border-radius: 3px; 
+    color: #fff;
+    text-align: center; 
+    font-size: 12px;
+    position: center;  
+    margin-left: -8px;padding: 10px; 
+    font-weight: bold;
+}

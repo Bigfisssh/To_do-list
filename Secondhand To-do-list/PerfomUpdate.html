@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <!--Usinf Bootstrap for alignment of ever wording on my web application interfaces.-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+        
+        <!-- separate stylesheets preventing mixe up of css files beinf tangled up together. -->
+        <link rel="stylesheet" href="./JSc/update.css">
+    </head>
+    <body>
+        <div class="fixed-top">
+            <header>
+                <!--Container to keep everything togteher in one container -->
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="" class="nav-link" style=" color:black;font-weight: bold; font-size:14px;" >Profile</a>
+                   </nav>
+                </div>
+        <!--
+            Separated .JS file carrying the Commanding that should the user go for cancel the update of information, 
+            to be returned to the ReadAll page. 
+        -->
+        </header>
+        <div class="wrapper">
+            <div class="header">
+                <br/>
+                <div class="top">
+                    <form id="form1" method="post">
+                        <div class="form" >
+                            
+                            <div class="top-banner">
+                                <div class="top-b-button">
+                                    <button type="button" style="color: white; padding: 12px; font-size: 14px;" class="btn"><a style="text-decoration: none; color: white;" href="http://127.0.0.1:5500/PerformReadAll.html">OK</a> 
+                                    <button onclick="PerformAlter()" type="button" style="color: white; padding: 12px; font-size: 14px;" class="btn">Update 
+                                </div>
+                            </div>
+                            <br>
+                            
+                            <!--re-confirming users password-->
+                            <div class="input_field"><input type="text" style="width: 93%;" id="titl" type="text" placeholder="Title" class="input">
+                            </div> 
+
+                            <div class="input_field">
+                            <textarea style="padding: 30px; width: 93%;" type="text" id="descr" type="text" placeholder="Description" class="input"></textarea>
+                            </div>
+                            
+                            <div class="input_field"><input id="ddue" style="width: 93%;" type="date" name="password" class="input">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="./JSc/script.js" async defer></script>
+    </body>
+</html>

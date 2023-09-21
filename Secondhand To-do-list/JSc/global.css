@@ -1,0 +1,22 @@
+﻿form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+    form .form {
+        position: absolute;
+        background-color: #fff;
+        transition: 0.3s ease;
+    }
+
+        form .fields .input-field {
+            display: flex;
+            width: calc(85% / 2 - 12.5px);
+            flex-direction: column;
+            margin: 4px 0;
+        }
+
+

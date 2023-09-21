@@ -1,0 +1,85 @@
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box; outline: none;
+    list-style: none; text-decoration: none;
+    font-family: 'Kristen ITC', sans-serif; font-weight: bold;
+}
+
+body{
+    background: #fafafa;
+    font-size: 14px;
+}
+
+.wrapper .header{
+    height: auto;
+    margin: 90px 50px;
+}
+
+.wrapper .header .top{
+    background: white; 
+    border: 1px solid #e6e6e6;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1px; padding: 50px 28px 50px; width: 100%;
+}
+
+.wrapper .header .top .form{
+    width: 100%;
+    
+}
+
+.wrapper .header .top .form table{
+ 
+    margin: 1px 0px;
+    text-align: center;
+    border:1px solid black;
+
+}
+
+.wrapper .header .top .form table thead tr th {
+    padding: 11px;
+  }
+
+
+
+.wrapper .header .form .input_field, option {
+    margin-bottom: 9.5px;
+   position: relative; left: 1%; margin-left: -30px;
+   
+}
+
+.wrapper .header .form .input_field .input {
+    width: 5%; 
+    background: #fafafa; 
+    border: 1px solid #efefef;
+    font-size: 12px; 
+    border-radius: 3px;
+    color: #262626; 
+    padding: 8px; 
+    align-items: left;
+}
+
+
+.wrapper .header .form .btn {
+    background-color: black; width: 5%;
+    border: 1px solid black; border-radius: 3px; color: #fff;
+    text-align: center; font-size: 13px;
+    position: center; padding: 7px; font-weight: bold;
+}
+
+.top-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+}
+
+.top-b-button{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    justify-content: end;
+}
